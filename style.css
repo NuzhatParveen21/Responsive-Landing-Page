@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.brand-logo{
+  background-color: pink;
+  
+}
+
+.navbar-brand{
+  font-weight: bold;
+}
+.navbar-inner {
+    background: transparent;
+    
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .gray-bg {
+    background-color: #DADADA;
+    border-radius: 10px;
+  }
+  
+  .customer-card {
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  .buy-button {
+    width: 180px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #6055FF;
+  }
+
+  
+  section{
+    margin-bottom: 30px;
+  }
