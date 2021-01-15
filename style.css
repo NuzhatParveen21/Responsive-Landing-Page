@@ -1,13 +1,45 @@
 body{
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Serif', serif;
 }
 
-
-.brand-logo{
-  background-color: pink;
+.carousel-item {
+  background-color: #f1f1f1;
+  text-align: center;
+  
   
 }
+.link-text{
+  color: black;
+}
+.paragraph{
+   font-style: normal;
+}
+.price{
+  font-weight: 900;
+  color: orangered;
+  font-size: 25px;
+}
+.card-title{
+  font-weight: 600;
+}
+
+.first-block{
+  padding: 10px 48px 48px 48px;
+}
+.header-bg{
+  background-color: #fff9f4;
+}
+
+.shoe-card {
+  border: 0;
+  border-radius: 5px;
+}
+.shoeprice{
+  font-weight: bold;
+  text-decoration: orangered;
+}
+
 
 .navbar-brand{
   font-weight: bold;
@@ -22,8 +54,9 @@ body{
   }
 
   .gray-bg {
-    background-color: #DADADA;
-    border-radius: 10px;
+    background-color: #f1f1f1;
+    border: 0;
+    border-radius: 5px;
   }
   
   .customer-card {
@@ -32,11 +65,23 @@ body{
   }
 
   .buy-button {
-    width: 180px;
+    width: 140px;
     text-transform: uppercase;
     color: #FFFFFF;
-    background-color: #6055FF;
+    background-color: rgb(44, 33, 201);
+    font-size: small;
   }
+
+h1{
+  color: orangered;
+  font-weight: bold;
+}
+
+h3{
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+}
 
   
   section{
